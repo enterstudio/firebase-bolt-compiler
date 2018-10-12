@@ -36,11 +36,11 @@
   },
   "dependencies": {
     "commander": "^2.11.0",
-    "condition-circle": "^1.5.0",
+    "condition-circle": "^1.6.0",
     "firebase-bolt": "^0.8.2",
     "get-stdin": "^5.0.1",
-    "lodash": "^4.17.4",
-    "semantic-release": "^8.0.3",
+    "lodash": "^4.17.5",
+    "semantic-release": "^8.2.3",
     "update-notifier": "^2.2.0"
   },
   "release": {
