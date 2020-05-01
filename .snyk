@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T05:21:49.916Z'
+    - semantic-release > lodash:
+        patched: '2020-05-01T05:21:49.916Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2020-05-01T05:21:49.916Z'
+    - semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2020-05-01T05:21:49.916Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-core > lodash:
+        patched: '2020-05-01T05:21:49.916Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2020-05-01T05:21:49.916Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2020-05-01T05:21:49.916Z'
+    - semantic-release > @semantic-release/condition-travis > travis-deploy-once > travis-ci > request > form-data > async > lodash:
+        patched: '2020-05-01T05:21:49.916Z'
