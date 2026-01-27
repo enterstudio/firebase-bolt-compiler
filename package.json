@@ -39,8 +39,8 @@
     "condition-circle": "^1.5.0",
     "firebase-bolt": "^0.8.2",
     "get-stdin": "^5.0.1",
-    "lodash": "^4.17.4",
-    "semantic-release": "^8.0.3",
+    "lodash": "^4.17.23",
+    "semantic-release": "^12.0.0",
     "update-notifier": "^2.2.0"
   },
   "release": {
